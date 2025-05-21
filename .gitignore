@@ -2,8 +2,13 @@
 venv/
 
 # Data files
-data/
-*.csv
+data/*
+
+# But keep the cleaned CSVs
+!data/benin_clean.csv
+!data/sierra_leone_clean.csv
+!data/togo_clean.csv
+
 .ipynb_checkpoints/
 
 # Python cache
