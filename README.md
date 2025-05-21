@@ -32,3 +32,5 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+## 4, check additional info including dashboard & report
+scripts/README.md
